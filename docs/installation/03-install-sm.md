@@ -54,16 +54,16 @@ Releases are on the master branch and are updated about every three months. Blee
     export LC_CTYPE="en_US.UTF-8"
     virtualenv venv
     source venv/bin/activate
-    pip install --upgrade setuptools
-    pip install --upgrade pip
-    pip install --upgrade urllib3[secure]   # to prevent InsecurePlatformWarning
-    pip install google-compute-engine  # Only required on GCP
-    pip install oauth2client # Required to retrieve GCP data
-    pip install google-api-python-client # Required to retrieve GCP data
-    pip install httplib2 # Required to retrieve GCP data
-    pip install cloudaux\[gcp\]
-    pip install cloudaux\[openstack\]    # Only required on OpenStack
-    python setup.py develop
+    pip3 install --upgrade setuptools
+    pip3 install --upgrade pip
+    pip3 install --upgrade urllib3[secure]   # to prevent InsecurePlatformWarning
+    pip3 install google-compute-engine  # Only required on GCP
+    pip3 install oauth2client # Required to retrieve GCP data
+    pip3 install google-api-python-client # Required to retrieve GCP data
+    pip3 install httplib2 # Required to retrieve GCP data
+    pip3 install cloudaux\[gcp\]
+    pip3 install cloudaux\[openstack\]    # Only required on OpenStack
+    python3 setup.py develop
 
 ### 🚨⚠️🥁🎺 ULTRA SUPER IMPORTANT SPECIAL NOTE PLEASE READ THIS 🎺🥁⚠️🚨 ###
 
